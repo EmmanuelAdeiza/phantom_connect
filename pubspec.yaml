@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   pinenacl: ^0.5.1
-  solana: ^0.26.0
+  # solana: ^0.26.0
+  solana:
+    git:
+      url: https://github.com/EmmanuelAdeiza/espresso-cash-public
+      path: packages/solana
 
 dev_dependencies:
   flutter_test:
